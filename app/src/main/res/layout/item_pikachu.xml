@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/bgPikachu"
+    android:layout_width="35dp"
+    android:layout_height="35dp"
+    android:layout_marginTop="5dp"
+    android:layout_marginEnd="5dp"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    app:cardCornerRadius="10dp"
+    app:cardBackgroundColor="@color/bg_select"
+    app:cardElevation="5dp">
+
+    <ImageView
+        android:id="@+id/imgPikachu"
+        android:layout_gravity="center"
+        android:src="@drawable/pi11"
+        android:layout_width="25dp"
+        android:layout_height="25dp"/>
+
+</androidx.cardview.widget.CardView>
