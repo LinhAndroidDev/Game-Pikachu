@@ -53,3 +53,26 @@ fun listPikachu12(): ArrayList<Pikachu> {
     }
     return pikachus
 }
+
+fun listPikachu16(): ArrayList<Pikachu> {
+    val pikachus = arrayListOf<Pikachu>()
+    for (i in 0 until 4) {
+        pikachus.add(Pikachu(R.drawable.pi11, 1))
+        pikachus.add(Pikachu(R.drawable.pi21, 2))
+        pikachus.add(Pikachu(R.drawable.pi31, 3))
+        pikachus.add(Pikachu(R.drawable.pi41, 4))
+        pikachus.add(Pikachu(R.drawable.pi51, 5))
+        pikachus.add(Pikachu(R.drawable.pi61, 6))
+        pikachus.add(Pikachu(R.drawable.pi71, 7))
+        pikachus.add(Pikachu(R.drawable.pi81, 8))
+        pikachus.add(Pikachu(R.drawable.pi91, 9))
+        pikachus.add(Pikachu(R.drawable.pi101, 10))
+        pikachus.add(Pikachu(R.drawable.pi111, 11))
+        pikachus.add(Pikachu(R.drawable.pi121, 12))
+        pikachus.add(Pikachu(R.drawable.pi131, 13))
+        pikachus.add(Pikachu(R.drawable.pi141, 14))
+        pikachus.add(Pikachu(R.drawable.pi151, 15))
+        pikachus.add(Pikachu(R.drawable.pi161, 16))
+    }
+    return pikachus
+}
